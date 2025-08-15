@@ -5,6 +5,7 @@ import { SiLeetcode } from "react-icons/si";
 import Link from 'next/link';
 import Photos from '@/components/Photos';
 import Header from '@/components/Header';
+import Photo from '@/components/Photo';
 
 
 const About = () => {
@@ -23,11 +24,11 @@ const About = () => {
 
             
 
-            <p className='w-full md:max-w-[500px] text-md md:text-sm font-semibold text-white dark:text-white md:mx-auto xl:mx-0 mb-8'>
+            <p className='w-full md:max-w-[500px] text-md md:text-sm font-semibold text-gray-600 dark:text-gray-300 md:mx-auto xl:mx-0 mb-8'>
 
-              I’m Ketan Kumar, a passionate Computer Science & Engineering student at Galgotias University with a strong foundation in Web development and a growing interest in creating impactful web and mobile applications. I’ve gained hands-on experience through internships at X-Strategy Services LLP and IBM SkillsBuild, where I contributed to real-world projects using technologies like React.js, React-Native, FlutterFlow, and Tailwind CSS.
+              I’m Ketan Kumar, a passionate Computer Science & Engineering student at Galgotias University with a strong foundation in Web development and a growing interest in creating impactful web. I’ve gained hands-on experience through internships at X-Strategy Services LLP and IBM SkillsBuild, where I contributed to real-world projects using technologies like React.js, FlutterFlow and Tailwind CSS.
 
-              With a solid grasp of C++, JavaScript, and modern frontend frameworks, I enjoy building intuitive, responsive user interfaces and continuously enhancing user experiences. I’ve built several personal and client-facing projects, including a car rental platform and a medical shop app. I’m also actively sharpening my problem-solving skills, having solved over 200 DSA problems and earned a 3-star rating in C++ on HackerRank.
+              With a solid grasp of C++, JavaScript, and modern frontend frameworks, I enjoy building intuitive, responsive user interfaces and continuously enhancing user experiences. I’ve built several personal and client-facing projects, including a car rental platform and a barber shop app. I’m also actively sharpening my problem-solving skills, having solved over 200 DSA problems and earned a 3-star rating in C++ on HackerRank.
 
               I’m always eager to collaborate, learn new technologies, and take on challenges that push my technical and creative boundaries.
             </p>
@@ -86,7 +87,8 @@ const About = () => {
           </div>
 
           <div className='order-1 xl:order-none mb-8 xl:mb-0'>
-            <Photos />
+            {/* <Photos /> */}
+            <Photo />
           </div>
         </div>
       </div>

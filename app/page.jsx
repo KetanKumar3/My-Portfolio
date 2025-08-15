@@ -33,7 +33,7 @@ const Home = () => {
 
 
             <p className='md:max-w-[500px] text-lg md:text-xl text-gray-600 dark:text-gray-300  xl:mx-0 mb-8'>
-              I'm a passionate Software Developer and Computer Science student with hands-on experience in building modern, responsive web and mobile applications using React, React-Native, FlutterFlow, and Tailwind CSS. I love solving real-world problems through clean code, intuitive UI, and smooth user experiences. Constantly learning and evolving, I've solved 200+ DSA problems to sharpen my skills.
+              I'm a passionate Software Developer and Computer Science student with hands-on experience in building modern, responsive web and mobile applications using React, FlutterFlow, and Tailwind CSS. I love solving real-world problems through clean code, intuitive UI, and smooth user experiences. Constantly learning and evolving, I've solved 200+ DSA problems to sharpen my skills.
             </p>
 
 

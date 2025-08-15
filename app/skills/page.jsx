@@ -4,6 +4,8 @@ import { TbBrandCpp } from "react-icons/tb";
 import { IoLogoCss3 } from "react-icons/io";
 import { RiJavascriptFill, RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { FaFlutter } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
+
 import Header from '@/components/Header';
 
 
@@ -46,7 +48,7 @@ function Skills() {
           
         </div>
         <div className='flex flex-col items-center p-2'>
-          <RiNextjsFill size={100} />
+          <SiExpress size={100} />
           
         </div>
         <div className='flex flex-col items-center p-2'>

@@ -26,7 +26,7 @@ const Photos = () => {
           className="absolute inset-0"
         >
           <Image
-            src="/ketan2.png"
+            src="/ketan1.jpg"
             alt="Profile photo of Ketan Kumar"
             priority
             quality={100}
